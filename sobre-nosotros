@@ -1,15 +1,173 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sobre Nosotros</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="css/bootstrap-custom.css" rel="stylesheet">
-<link href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet" >
-<link href="css/style.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sobre Nosotros - Fun Designs</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/stylesheet.css" rel="stylesheet">
+
 </head>
 
 <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar-principal">
+
+        <div class="logo">
+            Fun Designs
+        </div>
+
+        <div class="menu">
+
+            <!-- Enlace al Home -->
+            <a href="index.html">Inicio</a>
+
+            <!-- Productos -->
+            <div class="productos">
+                <a href="#">Productos <span>⌄</span></a>
+            </div>
+
+            <a href="#">Personalización</a>
+
+            <a href="#">Sobre nosotros</a>
+
+        </div>
+
+        <div class="iconos-menu">
+
+            <i class="bi bi-search"></i>
+            <i class="bi bi-cart3"></i>
+            <i class="bi bi-person-circle"></i>
+
+        </div>
+
+    </nav>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <section class="contacto">
+
+        <h1>Contactanos</h1>
+
+
+        <h2>Con qué te podemos ayudar?</h2>
+
+
+        <!-- PRIMERA FILA -->
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <!-- CAMBIOS -->
+                <div class="col-md-5">
+
+                    <div class="caja-ayuda">
+
+                        <h3>Cambios</h3>
+
+                        <p>
+                            No te quedó? Te lo cambiamos
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONTACTAR AGENTE -->
+                <div class="col-md-5">
+
+                    <div class="caja-ayuda">
+
+                        <h3>Contacta a un agente</h3>
+
+                        <p>
+                            Tuviste un problema? Te ayudamos.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- TITULO DE ENLACES -->
+        <h2 class="titulo-enlaces">
+            Enlaces rápidos y otra información
+        </h2>
+
+
+        <!-- SEGUNDA FILA -->
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <!-- TRACKING -->
+                <div class="col-md-4">
+
+                    <div class="caja-enlace">
+
+                        <i class="bi bi-truck icono-enlace"></i>
+
+                        <a href="#">
+                            Tracking / estado de tu orden
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ -->
+                <div class="col-md-4">
+
+                    <div class="caja-enlace">
+
+                        <i class="bi bi-question-circle icono-enlace"></i>
+
+                        <a href="#">
+                            FAQ / Centro de apoyo
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- REEMBOLSOS -->
+                <div class="col-md-4">
+
+                    <div class="caja-enlace">
+
+                        <i class="bi bi-credit-card icono-enlace"></i>
+
+                        <a href="#">
+                            Reembolsos
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
