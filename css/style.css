@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    background: #94B2C0 !important;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+	padding-left: 20px;
+	padding-right: 30px;
+	background-color: #DFBB35;
+    border-bottom: 3px solid black;
+}
+
+.navbar .nav-link {
+    font-size: 20px;
+    color: #000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.header-icons {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+}
+
+
+#hero {
+    min-height: 700px;
+    background: #5E8EA6;
+    padding: 70px 60px;
+}
+
+.primary-button,
+.secondary-button {
+    padding: 14px 25px;
+
+    background: #94B2C0;
+
+    border: 2px solid black;
+    border-radius: 13px;
+
+    font-size: 38px;
+}
+
+#products-section {
+    padding: 50px 30px 80px;
+    background: #94B2C0;
+    border: 3px solid black;
+}
+
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.product-card {
+    overflow: hidden;
+    background: #5E8EA6;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 385px;
+    background: #94b2c0;
+}
+
+.product-info {
+    padding: 10px 14px 16px;
+    border-top: 2px solid black;
+}
+
+.product-info h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.product-info p {
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+#categories-section {
+    padding: 60px 30px 100px;
+    background: #94B2C0;
+}
+
+#categories-section > h2 {
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.category-card {
+	position: relative;
+    min-height: 420px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background: #5E8EA6;
+    border: 2px solid black;
+    border-radius: 13px;
+	flex-direction: row;
+}
+
+.category-image {
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-start;
+}
+
+.category-content {
+	width: 50%;
+    padding: 20px 20px 20px 10px;
+    text-align: left;
+}
+
+.category-content h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.category-content p {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+#promo-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 200px;
+    padding: 50px;
+    background: #DFBB35;
+    border: 3px solid black;
+}
+
+.promo-decoration {
+    position: absolute;
+    top: 50%;                 
+    left: 40px;              
+    transform: translateY(-50%); 
+    z-index: 2;            
+}
+
+.promo-decoration img {
+    width: 500px;
+    height: auto;
+    display: block;
+}
+
+.promo-content h2 {
+    font-size: 45px;
+    font-weight: 400;
+	margin-left: 500px;
+}
+
+.promo-code {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+    font-size: 36px;
+	margin-left: 500px;
+}
+
+.promo-code strong {
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+
+.footer {
+    padding: 30px 40px 40px;
+    background: #5E8EA6;
+    border: 3px solid black;
+	margin-top: 90px;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-title h2 {
+    font-size: 45px;
+    font-weight: 400;
+	margin: 0;
+}
+
+.footer-line {
+    height: 3px;
+    margin: 20px 0;
+    background: black;
+}
+
+.footer-image {
+    width: 159px;
+    height: 235px;
+    background: #94B2C0;
+}
+
+.copyright {
+    font-size: 30px;
+}
+/* ================================
+   PÁGINA SOBRE NOSOTROS
+   ================================ */
+
+.fun-navbar {
+    min-height: 100px;
+    background-color: #DFBB35;
+    border-bottom: 3px solid #000;
+}
+
+.fun-brand {
+    font-size: clamp(2rem, 3vw, 3.25rem) !important;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #000 !important;
+}
+
+.fun-navbar .nav-link {
+    color: #000;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.fun-navbar .nav-link:hover,
+.fun-navbar .nav-link:focus,
+.fun-navbar .nav-link.active {
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.navbar-icons img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+#sobre-nosotros {
+    min-height: calc(100vh - 100px);
+    background-color: #5E8EA6;
+}
+
+.about-title {
+    margin-bottom: 7rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 700;
+}
+
+.about-row {
+    padding-bottom: 3rem;
+}
+
+.about-card {
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.about-image {
+    width: 118px;
+    height: 118px;
+    margin-bottom: 1.25rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-card h2 {
+    margin-bottom: 1.3rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.35rem, 2vw, 1.75rem);
+    font-weight: 700;
+}
+
+.about-card p {
+    margin: 0 auto;
+    max-width: 330px;
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
+
+@media (max-width: 991.98px) {
+    .fun-navbar {
+        padding: 0.75rem 0;
+    }
+
+    .fun-navbar .navbar-collapse {
+        padding-top: 1rem;
+    }
+
+    .about-title {
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .about-title {
+        margin-bottom: 3rem;
+    }
+
+    .about-card {
+        max-width: 430px;
+    }
+
+    .about-card p {
+        max-width: 380px;
+    }
+}
